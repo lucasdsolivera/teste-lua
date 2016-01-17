@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
 	skip_before_action :verify_authenticity_token
 
 	def index
-		@comments = Comment.all.paginate(:page => params[:page], :per_page => 5)
+		@comments = Comment.where(parent:nil).paginate(:page => params[:page], :per_page => 5)
 	end
 
 	def create
@@ -15,6 +15,6 @@ class CommentsController < ApplicationController
 
 	def show
 		@comment = Comment.find(params[:id])
-		@comment_children_list = @comment.children.paginate(:page => params[:page], :per_page => 5)
+		@comment_children_list = Comment.where(comment_id: @comment.id).paginate(:page => params[:page], :per_page => 5)
 	end
 end

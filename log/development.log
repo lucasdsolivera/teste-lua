@@ -22401,3 +22401,1100 @@ Processing by CommentsController#show as HTML
   Rendered comments/_textfield.html.erb (0.0ms)
   Rendered comments/show.html.erb within layouts/application (28.3ms)
 Completed 200 OK in 77ms (Views: 70.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/comments?page=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+Processing by CommentsController#index as HTML
+  Parameters: {"page"=>"1"}
+  [1m[36mComment Load (0.9ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL
+  Rendered comments/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 73ms (Views: 62.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:42 -0200
+
+
+Started GET "/comments?page=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+Processing by CommentsController#index as HTML
+  Parameters: {"page"=>"1"}
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL
+  Rendered comments/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 14:00:44 -0200
+
+
+Started GET "/comments?page=2" for 127.0.0.1 at 2016-01-17 14:00:45 -0200
+Processing by CommentsController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 5[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL
+  Rendered comments/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/comments?page=3" for 127.0.0.1 at 2016-01-17 14:00:46 -0200
+Processing by CommentsController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mComment Load (1.0ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 10[0m
+  Rendered comments/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/comments?page=1" for 127.0.0.1 at 2016-01-17 14:01:16 -0200
+Processing by CommentsController#index as HTML
+  Parameters: {"page"=>"1"}
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL[0m
+  Rendered comments/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 14:01:19 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (5.2ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.7ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (15.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (19.8ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 93ms (Views: 83.0ms | ActiveRecord: 5.5ms)
+  [1m[36mComment Load (1.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY "comments"."id" ASC LIMIT 1[0m
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 1]]
+  [1m[36mComment Load (1.4ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY "comments"."id" ASC LIMIT 1[0m
+  [1m[36mComment Load (1.1ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY "comments"."id" ASC LIMIT 1[0m
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 1]]
+  [1m[36mComment Load (1.3ms)[0m  [1mSELECT  "comments".* FROM "comments"  ORDER BY "comments"."id" ASC LIMIT 1[0m
+  [1m[35mComment Load (0.8ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 1]]
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 15]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 21]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 22]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 23]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 26]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 24]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 20]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 25]]
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:24:34 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 3.9ms)
+
+NoMethodError (undefined method `all_children' for #<Comment:0x00000004467ab8>):
+  app/controllers/comments_controller.rb:18:in `show'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.2ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.8ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:24:54 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 8.7ms)
+
+NoMethodError (undefined method `paginate' for #<Array:0x007fcb7c3202e0>):
+  app/controllers/comments_controller.rb:18:in `show'
+
+
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.8ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/lucas/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.3ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 15]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 21]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 23]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (5.0ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (13.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (18.8ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 116ms (Views: 81.4ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 15:26:49 -0200
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.8ms)
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (4.7ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (13.9ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (19.8ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.0ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.0ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 101ms (Views: 82.4ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:43 -0200
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 15]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 21]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 23]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (5.7ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (13.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (15.9ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.7ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.8ms)
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/show.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 81ms (Views: 75.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 15:49:44 -0200
+
+
+Started POST "/comments" for 127.0.0.1 at 2016-01-17 15:49:50 -0200
+Processing by CommentsController#create as HTML
+  Parameters: {"message"=>"10101010", "comment_id"=>"1"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("message", "comment_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["message", "10101010"], ["comment_id", 1], ["created_at", "2016-01-17 17:49:50.254036"], ["updated_at", "2016-01-17 17:49:50.254036"]]
+  [1m[35m (49.9ms)[0m  COMMIT
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/comments/1
+Completed 302 Found in 59ms (ActiveRecord: 51.2ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:49:50 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (7.5ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (17.4ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (21.1ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (3.2ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.3ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 92ms (Views: 85.3ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2016-01-17 15:50:01 -0200
+Processing by CommentsController#create as HTML
+  Parameters: {"message"=>"asdasdasdasd", "comment_id"=>"1"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("message", "comment_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["message", "asdasdasdasd"], ["comment_id", 1], ["created_at", "2016-01-17 17:50:01.015733"], ["updated_at", "2016-01-17 17:50:01.015733"]]
+  [1m[35m (76.7ms)[0m  COMMIT
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/comments/1
+Completed 302 Found in 83ms (ActiveRecord: 77.9ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2016-01-17 15:50:01 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.8ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (6.0ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.5ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (15.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (18.2ms)
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.9ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 90ms (Views: 82.5ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/comments/1?page=2" for 127.0.0.1 at 2016-01-17 15:50:03 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 5[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 29]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.8ms)
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/show.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 91ms (Views: 87.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments/1?page=1" for 127.0.0.1 at 2016-01-17 15:50:10 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"1", "id"=>"1"}
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.3ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.7ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (6.4ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.6ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (18.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (22.6ms)
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 99ms (Views: 90.7ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/comments/1?page=2" for 127.0.0.1 at 2016-01-17 15:50:12 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 5[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 29]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.8ms)
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/comments/1?page=1" for 127.0.0.1 at 2016-01-17 15:50:15 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"1", "id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.3ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (5.4ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.7ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (15.7ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (19.7ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.8ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.5ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.5ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 98ms (Views: 90.5ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/comments/1?page=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"1", "id"=>"1"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0[0m  [["comment_id", 1]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 15]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 21]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.0ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 23]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.6ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (6.4ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (3.0ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (18.1ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (21.1ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.7ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.1ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.8ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 98ms (Views: 89.9ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:49 -0200
+
+
+Started GET "/comments/1?page=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"page"=>"1", "id"=>"1"}
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0  [["comment_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 15]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 21]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 22]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 23]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 26]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.4ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (6.0ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 24]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.7ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (15.2ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (18.8ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 19]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 20]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 25]]
+  Rendered comments/_textfield.html.erb (0.1ms)
+  Rendered comments/_comment_children.html.erb (2.2ms)
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1[0m  [["comment_id", 28]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (1.9ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 95ms (Views: 87.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/application.self-5667f3012c0b2f603797c4928cb18b35c2b0dce6fc65108b8b5d7ab3aac36ea0.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/comment.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:56 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/comment.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-01-17 15:50:57 -0200
+
+
+Started GET "/comments" for 127.0.0.1 at 2016-01-17 15:50:59 -0200
+Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.7ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL[0m
+  Rendered comments/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/comments/2" for 127.0.0.1 at 2016-01-17 15:51:03 -0200
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" = $1 LIMIT 5 OFFSET 0[0m  [["comment_id", 2]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."comment_id" = $1  [["comment_id", 27]]
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/_comment_children.html.erb (2.5ms)
+  Rendered comments/_textfield.html.erb (0.0ms)
+  Rendered comments/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2016-01-17 15:51:06 -0200
+Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.8ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."comment_id" IS NULL LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "comments" WHERE "comments"."comment_id" IS NULL
+  Rendered comments/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 1.3ms)

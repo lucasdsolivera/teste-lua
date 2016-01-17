@@ -10,4 +10,5 @@ class Comment < ActiveRecord::Base
 			return parent.get_first_parent()
 		end
 	end
+
 end
