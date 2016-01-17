@@ -1,0 +1,19 @@
+<div class="col-md-offset-1">
+	<div class="row top-buffer">
+			<%= comment_children.created_at %>
+			<%= comment_children.message %>	
+		&nbsp;				
+		<button class="reply_button" id="<%= comment_children.id %>">responder</button> 			
+	</div>
+	<%for @item in @item.children %> 
+		<%= render partial: "comment_children", object: @item %>
+	<% end %>
+</div>
+<script type="text/javascript">
+		$("#<%= comment_children.id %>").click(function() {
+			id = $(this).attr('id');
+			$(this).parent().append("<%= escape_javascript render('textfield') %>");
+			$(this).parent().find("input[type=hidden]").val(id);
+			$(this).remove();
+		});
+</script>

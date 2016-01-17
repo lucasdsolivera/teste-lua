@@ -4,22 +4,13 @@
 		<div class="col-md-4 col-md-offset-4">
 			<% for @item in @comments %>
 				<div class="row top-buffer">
-					<%= @item.created_at %>
-					<%= @item.message %>	
-					&nbsp;				
-					<button class="reply_button" id="<%= @item.id %>">responder</button>
+					<a href="comments/<%=@item.id%>">
+						<%= @item.created_at %>
+						<%= @item.message %>	
+					</a>
 				</div>
 			<% end %>
 		</div>
 	</div>
 </div>
 <%= will_paginate @comments , renderer: BootstrapPagination::Rails%>
-
-<script type="text/javascript">
-		$(".reply_button").click(function() {
-			id = $(this).attr('id');
-			$(this).parent().append("<%= escape_javascript render('textfield') %>");
-			$(this).parent().find("hidden").val(id);
-			$(this).remove();
-		});
-</script>
