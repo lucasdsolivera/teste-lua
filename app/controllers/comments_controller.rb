@@ -1,5 +1,6 @@
 class CommentsController < ApplicationController
 
+	include CommentHelper
 	skip_before_action :verify_authenticity_token
 
 	def index
@@ -7,7 +8,8 @@ class CommentsController < ApplicationController
 	end
 
 	def create
-		 @comment = Comment.new(message: params[:message], comment_id: params[:comment_id])
+		 message = CommentHelper.validate_message(params[:message], BlockedWord.pluck(:word))
+		 @comment = Comment.new(message: message, comment_id: params[:comment_id])
  
   		 @comment.save
   		 redirect_to Comment.find(@comment.get_first_parent.id)
