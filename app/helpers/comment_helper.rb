@@ -4,6 +4,10 @@ module CommentHelper
 		final_string = String.new
 		message_list = String.new(message).split(" ");		
 
+		if(black_list.nil? || black_list.empty?)
+			return message
+		end
+
 		r = /#{black_list.map(&:upcase).map{|w|Regexp.escape(w)}.join('|')}/
 		message_list.each do |word|
 			if r.match(word.upcase) != nil
